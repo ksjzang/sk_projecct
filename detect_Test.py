@@ -3,7 +3,7 @@ import cv2.aruco as aruco
 import numpy as np
 import time
 
-cap = cv2.VideoCapture(0)  # 기본 카메라로 테스트
+cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 cap.set(cv2.CAP_PROP_FPS, 60)
