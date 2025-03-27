@@ -101,7 +101,7 @@ while True:
         left(20)
     else:
         stop()
-        time.sleep(3)
+        time.sleep(10)
         putting()
         break
 print('finish')
