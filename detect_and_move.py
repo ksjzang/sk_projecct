@@ -67,9 +67,9 @@ while True:
         print(time.time()-start_time, center_x, flush=True)
 
     # 115~120
-    if center_x < 115:
-        right()
-    elif center_x > 120:
-        left()
+    if center_x < 110:
+        right(20)
+    elif center_x > 130:
+        left(20)
     else:
         stop()
